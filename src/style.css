@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     text-decoration:none;
-    background-color: #003377;
 }
 #home{
     display: block;
@@ -13,7 +12,7 @@
 img.banner{
     width: 100%;
     position: absolute;
-    z-index: 0;
+    z-index: -1;
     height: 125px;
     opacity: 0.3;
 }
@@ -51,7 +50,7 @@ h5{
 #rodape img{
     width: 100%;
     position: absolute;
-    z-index: 0;
+    z-index: -1;
     height: 70px;
     opacity: 0.2;
 }
