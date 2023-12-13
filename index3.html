@@ -4,52 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IFPI-TDS-Internet e Aplicações Web-Avaliação</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            text-decoration:none;
-        }
-        #home{
-            text-align: left;
-        }
-        .nome{
-            margin-top: -20px;
-            border: 1px red solid;
-            display: block;
-            height: 20px;
-        }
-        div>h5{
-            font-size: 26pt;
-        }
-        #fotos{
-            align-items: center;
-            margin: auto;
-            border: 1px red solid;
-        }
-    </style>
 </head>
 <body bgcolor="#003377"  text="white"  link="white" vlink="white" alink="blue">
-        <div id="home">
-            <h3 class="menu">
-                <a href="#home">Home</a> |
-                <a href="#sobre">Sobre</a> |
-                <a href="#fotos">Fotos</a> |
-                <a href="#video">Vídeos</a> |
-                <a href="#links">Links Úteis</a> |
-                <a href="#musicas">Músicas</a>
-                <h3 class="nome" align="right">
-                    <font color="#f09260" align="right">
-                        Leonardo Gonçalves - Cantor
-                    </font>
-                </h3> 
-            </h3>
-        </div>
+    <div align="center" id="home">
+        <font size="7" color="#f09260"><h1>Leonardo Gonçalves - Cantor</h1></font>
         <hr />
-           <div id="sobre"> 
+        <font size="5">
+        <h3 text-decoration="none">
+            <a href="#sobre">Sobre</a>
+            <a href="#foto">Fotos</a>
+            <a href="#video">Vídeos</a>
+            <a href="#links">Links Úteis</a>
+            <a href="#musicas">Músicas</a>
+        </h3>
+        <hr />
+           <h5 id="sobre"> 
             <h5 align="left">Sobre</h5> 
             <div align="left">
-                <font size="6" color="#abf7e2">
+            <font size="6" color="#abf7e2" >
                 “Leonardo Gonçalves, nome artístico de Hugo Leonardo Soares Gonçalves, é um cantor, compositor, 
                 produtor musical e arranjador brasileiro de música cristã contemporânea. 
                 Faz parte de uma família de músicos ligados à Igreja Adventista do Sétimo Dia, da qual é membro.
@@ -59,15 +31,13 @@
                 ”
             </font>
         </div>
-    </div>
+        </h5>
         <hr />
-        <div id="fotos">
         <h5 align="left" font-size="50rem">Fotos</h5>
-           <a href="/imagens/leonardo2.jpg"><img  width="520" height="440" align="center"  src="/imagens/leonardo2.jpg" alt=""></a>
-           <a href="/imagens/leonardo.jpg"><img  width="520" height="440" align="center" src="/imagens/leonardo.jpg" alt=""></a>
-           <a href="/imagens/leonardo3.jpg"><img  width="520" height="440" align="center" src="/imagens/leonardo3.jpg" alt=""></a>
-           <a href="/imagens/leonardo4.jpg"><img  width="520" height="440" align="center" src="/imagens/leonardo4.jpg" alt=""></a>
-        </div>
+           <a href="/imagens/leonardo2.jpg"><img  width="520" height="440" align="center" id="foto" src="/imagens/leonardo2.jpg" alt=""></a>
+           <a href="/imagens/leonardo.jpg"><img  width="520" height="440" align="center" id="foto" src="/imagens/leonardo.jpg" alt=""></a>
+           <a href="/imagens/leonardo3.jpg"><img  width="520" height="440" align="center" id="foto" src="/imagens/leonardo3.jpg" alt=""></a>
+           <a href="/imagens/leonardo4.jpg"><img  width="520" height="440" align="center" id="foto" src="/imagens/leonardo4.jpg" alt=""></a>
         <hr />
         <h5 id="video" align="left" font-size="50rem">Vídeos</h5>
         <a href="https://www.youtube.com/embed/-qarhHGAYf8?si=_9iHzlwYJAY5FeLX"><object data="https://www.youtube.com/embed/-qarhHGAYf8?si=_9iHzlwYJAY5FeLX" width="520" height="440"></a>
@@ -87,17 +57,15 @@
         </font>
         <hr />
         <h5 id="musicas" align="left" font-size="50rem">Músicas</h5>
-        <a href="/audios/sublime.mp3">
-            <audio controls src="/audios/sublime.mp3" type="audio/mpeg">
-            </audio>
-        </a>
-        <a href="/audios/eu-me-rendo.mp3">
-            <audio controls src="/audios/eu-me-rendo.mp3" type="audio/mpeg">
-            </audio>
-        </a>
+        <a href="/audios/sublime.mp3"><audio controls src="/audios/sublime.mp3" type="audio/mpeg"></a>
+        </audio>
+        <a href="/audios/eu-me-rendo.mp3"><audio controls src="/audios/eu-me-rendo.mp3" type="audio/mpeg"></a>
+        </audio>
         <hr />
         <h3>David Sousa - IFPI - TDS - Internet - 2023 </h3>
-        <h3 align="right"> <a href="#home">Voltar ao topo &uarr;</a></h3>
-    </font>  
+        <h3 align="right"> <a href="#home">⬆️</a></h3>
+    </font>
+    </div>
+    
 </body>
 </html>
